@@ -11,7 +11,7 @@ public class chromeExample {
 		System.setProperty("webdriver.chrome.driver", "C:\\Program Files (x86)\\ChromeDriver\\chromedriver.exe");  
 		WebDriver driver=new ChromeDriver();  
 		
-        driver.get("http://www.facebook.com");
+        driver.get("http://www.google.com");
         
         WebElement mailID = driver.findElement(By.id("email"));
         mailID.sendKeys("test1@gmail.com");
