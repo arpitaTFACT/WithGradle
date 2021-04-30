@@ -1,0 +1,18 @@
+package WithGradle;
+
+public class chromeExample {
+
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver", "C:\\Program Files (x86)\\ChromeDriver\\chromedriver.exe");  
+		ChromeOptions options = new ChromeOptions();
+		options.addArguments("--headless");
+		WebDriver driver=new ChromeDriver(options);  
+		
+        driver.get("http://www.facebook.com");
+        
+        WebElement mailID = driver.findElement(By.id("email"));
+        mailID.sendKeys("test1@gmail.com");
+        
+        driver.close();
+	}
+}

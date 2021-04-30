@@ -1,0 +1,19 @@
+INDEX VERSION 1.131+C:\GiHubActions\GitHubWithGradle\.metadata\.plugins\org.eclipse.jdt.core
+3691588874.index
+1217822059.index
+2573742584.index
+3460880079.index
+294466341.index
+86942497.index
+2347958964.index
+2792738843.index
+2905187279.index
+2730361511.index
+3117897999.index
+3732488968.index
+1562646306.index
+3427434939.index
+3026518606.index
+1520747477.index
+3725203459.index
+3106381802.index
